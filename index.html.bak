@@ -1,0 +1,177 @@
+<!DOCTYPE = HTML>
+
+<html>
+
+<head>
+<title> Microsoft </title>  
+<meta charset="utf-8">
+</style>
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
+<style type="text/css">
+body {
+	background-color:#558C89;
+	background-image: url("../figuras/fondo.jpg" );
+	background-repeat: no-repeat, repeat;
+	background-size: cover;
+	margin-left:120pt;
+	margin-right:120pt;
+	font-family:"Quicksand", sans-serif;
+}
+
+h3 {color:#1a4c6b; font-size:31pt; font-family:"Quicksand", sans-serif;}
+h5 {color:#1a4c6b; font-size:22pt; font-family:"Quicksand", sans-serif;}
+h4 {color:#263533; font-family:"Quicksand", sans-serif;}
+p {color:#442a2d; font-size:19pt; font-family:"Quicksand", sans-serif;}
+
+mark {
+    color: white;
+    background-color:rgba(0, 0 ,0, 0.56)
+}
+
+/* Estilo de los botones */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 14px;
+    font-size: 22px;
+    width: 25%;
+}
+
+/* Cambiamos el color de los botones cuando pasamos el raton por encima */
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Estilos predeterminados para el contenido */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Estilo personalizado para cada contenido */
+#historia {background-color:#ECECEA;}
+#logros {background-color:#ECECEA;}
+#creditos {background-color:#ECECEA;}
+#actualidad {background-color:#ECECEA;}
+
+.spoilerbutton {display: inline-block; border: none; padding: 15px 32px; background-color: #4CAF50; text-align: center; color: white; font-family:"Quicksand", sans-serif; font-size:12pt;}
+.spoiler {overflow:hidden;background: #dfdfdf;}
+.spoiler > div {-webkit-transition: all 0.2s ease;-moz-transition: margin 0.2s ease;-o-transition: all 0.2s ease;transition: margin 0.2s ease;}
+.spoilerbutton[value="Mostrar"] + .spoiler > div {margin-top:-200%;}
+.spoilerbutton[value="Ocultar"] + .spoiler {padding:5px;}
+</style>
+</head>
+
+<body>
+
+<h1></h1>
+<h1 style = "text-align:center; font-size:48pt;"> <mark>Microsoft</mark> </h1>
+
+<!-- Cortesia de W3SChools, hacemos el header para los menus -->
+<div>
+<button class="tablink" onclick="openCity('historia', this, '#D9853B')" id="defaultOpen">Historia</button> <!-- El color es usado para los botones TRAS hacer click en ellos. -->
+<button class="tablink" onclick="openCity('logros', this, '#D9853B')">Logros</button>
+<button class="tablink" onclick="openCity('actualidad', this, '#D9853B')">Actualidad</button> 
+<button class="tablink" onclick="openCity('creditos', this, '#D9853B')">Créditos</button> 
+
+<div id="historia" class="tabcontent">
+  <h3>Historia</h3>
+  <img src="figuras/logoantiguo.png" width="450" height="180" style="text-align: center;" ></img>
+  <p>La historia de Microsoft.</p>
+  <h5>1975</h5>
+  <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
+  <div style = "text-align:center;" class="spoiler"><div>
+  <p>1 de enero de 1975</p><p>El MITS Altair 8800 aparece en la portada de Popular Electronics. El artículo inspira a Paul Allen y Bill Gates a desarrollar un lenguaje BASIC para el Altair.</p>
+  <p>1 de febrero de 1975</p><p>Bill Gates y Paul Allen completan Altair BASIC y lo venden al primer cliente de Microsoft, MITS de Albuquerque, Nuevo México. Este es el primer programa de lenguaje de computadora para una computadora personal.</p>
+  <p>1 de marzo de 1975</p><p>Paul Allen se une a MITS como director de software.</p>
+  <p>7 de abril de 1975</p><p>"Altair BASIC - Up and Running", declara el titular de la primera edición de MITS Computer Notes.</p>
+  <p>1 de julio de 1975</p><p>El BASIC de Bill Gates y Paul Allen oficialmente se comerciacializa como versión 2.0 en ediciones 4K y 8K.</p>
+  <p>22 de julio de 1975</p><p>Paul Allen y Bill Gates firman un acuerdo de licencia con MITS con respecto al Basic Interpreter. El nombre Microsoft aún no se ha elegido, y Microsoft aún no es una asociación oficial.</p>
+  <p>29 de julio de 1975</p><p>En una carta a Paul Allen, Bill Gates usa el nombre "Micro-soft" para referirse a su asociación. Esta es la primera referencia escrita conocida.</p>
+  <p>31 de diciembre de 1975</p><p>El total de ventas de fin de año de 1975 equivale a 16,005 dólares, como se detalla en el Formulario 1065 Declaración de ingresos de la sociedad de los EE. UU.</p>
+  </div></div>
+  <hr></hr>
+  <h5>1976</h5>
+  <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
+  <div style = "text-align:center;" class="spoiler"><div>
+  <p>3 de febrero de 1976</p><p>Bill Gates es el primer programador que plantea el problema de la piratería de software. En "Una carta abierta a los aficionados", publicada por primera vez en notas de computadora, Gates acusa a los aficionados de robar software y así evitar que se escriba un buen software.</p>
+  <p>27 de marzo de 1976</p><p>Bill Gates da el discurso de apertura en la Primera Convención Anual Mundial de Informática Altair celebrada en Albuquerque, Nuevo México.</p>
+  <p>Abril de 1976</p><p>Marc McDonald se convierte en el primer empleado oficial de Microsoft. (Otras personas trabajaron en productos de Microsoft antes de eso, pero por contrato)</p>
+  <p>Julio de 1976</p><p>El primer anuncio de Microsoft aparece en la revista Digital Design.</p>
+  <p>26 de noviembre de 1976</p><p>Paul Allen renuncia de MITS para unirse a Microsoft a tiempo completo.</p>
+  <p>1 de septiembre de 1976</p><p>El nombre comercial, Microsoft, está registrado en la Oficina del Secretario del Estado de Nuevo México.</p>
+  <p>Personal / Ingresos 1976</p><p>Microsoft alquila oficinas oficiales en el Edificio de la Torre Central Two Park en 300 San Mateo Blvd, N.E., Suite 819, Albuquerque, Nuevo México.</p>
+  </div></div>
+  <hr></hr>
+  <h5>1977</h5>
+  <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
+  <div style = "text-align:center;" class="spoiler"><div>
+  <p>3 de febrero de 1977</p><p>Se ejecuta un acuerdo de asociación oficial entre Paul Allen y Bill Gates.</p>
+  <p>1 de julio de 1977</p><p>FORTRAN-80, el producto de segundo idioma de computadoras de Microsoft, está disponible a los precios de $ 500 por una licencia individual. Las licencias OEM están disponibles.</p>
+  <p>13 de septiembre de 1977</p><p>Microsoft recibe nuevas computadoras de Commodore, Radio Shack y Texas Instruments.</p>
+  <p>26 de septiembre de 1977</p><p>Las instalaciones de Albuquerque se amplían con tres nuevas oficinas en el mismo edificio.</p>
+  <p>18 de noviembre de 1977</p><p>Microsoft rescinde una licencia exclusiva de MITS para el producto BASIC de Microsoft y anuncia la disponibilidad de versiones para los microprocesadores 8080 y Z-80.</p>
+  <p>Ingresos / personal de 1977</p><p>Los ingresos del año calendario 1977 totalizan $ 381,715, la plantilla es 9.</p>
+  </div></div>
+  <hr></hr>
+  <h5>1978</h5>
+  <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
+  <div style = "text-align:center;" class="spoiler"><div>
+  <p>11 de abril de 1978</p><p>Se anuncia Microsoft COBOL-80, que cumple con los estándares ANSI de 1974 para los sistemas de microprocesador 8080, Z80 y 8085.</p>
+  <p>1 de noviembre de 1978</p><p>Bill Gates y Paul Allen completan Altair BASIC y lo venden al primer cliente de Microsoft, MITS de Albuquerque, Nuevo México. Este es el primer programa de lenguaje de computadora para una computadora personal.</p>
+  <p>6 de noviembre de 1978</p><p>Paul Allen se une a MITS como director de software.</p>
+  <p>1 de diciembre de 1978</p><p>"Altair BASIC - Up and Running", declara el titular de la primera edición de MITS Computer Notes.</p>
+  <p>1 de diciembre de 1978</p><p>El BASIC de Bill Gates y Paul Allen oficialmente se comerciacializa como versión 2.0 en ediciones 4K y 8K.</p>
+  <p>31 de diciembre de 1978</p><p>Paul Allen y Bill Gates firman un acuerdo de licencia con MITS con respecto al Basic Interpreter. El nombre Microsoft aún no se ha elegido, y Microsoft aún no es una asociación oficial.</p>
+  </div></div>
+  <h5></h5>
+</div>
+
+<div id="logros" class="tabcontent">
+  <h3>Logros</h3>
+  <img src="figuras/windowslogo.png" width="175" height="175" style="text-align: center;" ></img>
+  <p>Logros alcanzados por Microsoft.</p>
+</div>
+
+<div id="actualidad" class="tabcontent">
+  <h3>Actualidad</h3>
+  <img src="figuras/logoahora.png" width="450" height="100" style="text-align: center;" ></img>
+  <p>Donde se encuentra Microsoft ahora.</p>
+</div>
+
+<div id="creditos" class="tabcontent">
+  <h3>Créditos</h3>
+  <p>Bibliografía.</p>
+</div>
+
+
+<script>
+function openCity(cityName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(cityName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+// Abre el elemento con clase defaultOpen, en este caso historia
+document.getElementById("defaultOpen").click();
+</script>
+</div>
+
+</body>
+
+
+</html>
