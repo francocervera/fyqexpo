@@ -3,7 +3,7 @@
 <html>
 
 <head>
-<title> Microsoft </title>  
+<title> Presión en la meteorología </title>  
 <meta charset="utf-8">
 </style>
 <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
@@ -38,7 +38,7 @@ mark {
     cursor: pointer;
     padding: 14px 14px;
     font-size: 22px;
-    width: 25%;
+    width: 33.3333%;
 }
 
 /* Cambiamos el color de los botones cuando pasamos el raton por encima */
@@ -55,10 +55,9 @@ mark {
 }
 
 /* Estilo personalizado para cada contenido */
-#historia {background-color:#ECECEA;}
-#logros {background-color:#ECECEA;}
+#exposicion {background-color:#ECECEA;}
+#problemas {background-color:#ECECEA;}
 #creditos {background-color:#ECECEA;}
-#actualidad {background-color:#ECECEA;}
 
 /* Contenido para la historia */
 .spoilerbutton {display: inline-block; border: none; padding: 15px 32px; background-color: #4CAF50; text-align: center; color: white; font-family:"Quicksand", sans-serif; font-size:12pt;}
@@ -85,16 +84,15 @@ table.nomirarantonio th,table.nomirarantonio2 th,table.nomirarantonio3 th {
 <body>
 
 <h1></h1>
-<h1 style = "text-align:center; font-size:48pt;"> <mark>Microsoft</mark> </h1>
+<h1 style = "text-align:center; font-size:48pt;"> <mark>Presión en la meteorología</mark> </h1>
 
 <!-- Cortesia de W3SChools, hacemos el header para los menus -->
 <div>
-<button class="tablink" onclick="openCity('historia', this, '#D9853B')" id="defaultOpen">Historia</button> <!-- El color es usado para los botones TRAS hacer click en ellos. -->
-<button class="tablink" onclick="openCity('logros', this, '#D9853B')">Logros</button>
-<button class="tablink" onclick="openCity('actualidad', this, '#D9853B')">Actualidad</button> 
+<button class="tablink" onclick="openCity('exposicion', this, '#D9853B')" id="defaultOpen">Contenido</button> <!-- El color es usado para los botones TRAS hacer click en ellos. -->
+<button class="tablink" onclick="openCity('problemas', this, '#D9853B')">Problemas</button>
 <button class="tablink" onclick="openCity('creditos', this, '#D9853B')">Créditos</button> 
 
-<div id="historia" class="tabcontent">
+<div id="exposicion" class="tabcontent">
   <h3>Historia</h3>
   <img src="figuras/logoantiguo.png" width="450" height="180" style="text-align: center;" ></img>
   <p>La historia de Microsoft.</p>
@@ -237,7 +235,7 @@ table.nomirarantonio th,table.nomirarantonio2 th,table.nomirarantonio3 th {
   <hr></hr>
 </div>
 
-<div id="logros" class="tabcontent">
+<div id="problemas" class="tabcontent">
   <h3>Logros</h3>
   <img src="figuras/windowslogo.png" width="175" height="175" style="text-align: center;" ></img>
   <p>Logros alcanzados por Microsoft.</p>
@@ -434,16 +432,6 @@ table.nomirarantonio th,table.nomirarantonio2 th,table.nomirarantonio3 th {
 <td>Microsoft lanza Windows 10 el 29 de julio de 2015.</td>
 </tr>
 </table>
-</div>
-
-<div id="actualidad" class="tabcontent">
-  <h3>Actualidad</h3>
-  <img src="figuras/logoahora.png" width="450" height="100" style="text-align: center;" ></img>
-  <p>Donde se encuentra Microsoft ahora.</p>
-  <hr></hr>
-  <p>Microsoft ahora mismo es una compañía internacional, y se ha expandido a diversos campos como las noticias, la imprenta, y servicios varios a parte de el sector informático y sistemas operativos.</p>
-  <p>También ha desarrollado sistemas como chats de voz tales como Skype, y Windows Live Essentials.</p>
-  <p>En internet, tiene también una página de noticias, Microsoft News.</p>
 </div>
 
 <div id="creditos" class="tabcontent">
