@@ -5,7 +5,6 @@
 <head>
 <title> Presión en la meteorología </title>  
 <meta charset="utf-8">
-</style>
 <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
 <style type="text/css">
 body {
@@ -79,12 +78,13 @@ table.nomirarantonio th,table.nomirarantonio2 th,table.nomirarantonio3 th {
  padding:5px
 }
 </style>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 </head>
 
 <body>
 
 <h1></h1>
-<h1 style = "text-align:center; font-size:48pt;"> <mark>Presión en la atmósfera</mark> </h1>
+<h1 style = "text-align:center; font-size:48pt;"> <mark>Presión en la meteorología</mark> </h1>
 
 <!-- Cortesia de W3SChools, hacemos el header para los menus -->
 <div>
@@ -93,23 +93,23 @@ table.nomirarantonio th,table.nomirarantonio2 th,table.nomirarantonio3 th {
 <button class="tablink" onclick="openCity('creditos', this, '#D9853B')">Créditos</button> 
 
 <div id="exposicion" class="tabcontent">
-  <h3>Historia</h3>
-  <img src="figuras/logoantiguo.png" width="450" height="180" style="text-align: center;" ></img>
-  <p>La historia de Microsoft.</p>
-  <h5>1975</h5>
+  <h3>Contenido</h3>
+  <img src="figuras/atmosfera.png" width="450" height="320" style="text-align: center;" ></img>
+  <h5>Sistemas de presión atmosféricos</h5>
+  <img src="figuras/presions.png" width="450" height="280" style="text-align: center;" ></img>
+  <br></br>
   <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
   <div style = "text-align:center;" class="spoiler"><div>
-  <p><i>1 de enero de 1975</i></p><p>El MITS Altair 8800 aparece en la portada de Popular Electronics. El artículo inspira a Paul Allen y Bill Gates a desarrollar un lenguaje BASIC para el Altair.</p>
-  <p><i>1 de febrero de 1975</i></p><p>Bill Gates y Paul Allen completan Altair BASIC y lo venden al primer cliente de Microsoft, MITS de Albuquerque, Nuevo México. Este es el primer programa de lenguaje de computadora para una computadora personal.</p>
-  <p><i>1 de marzo de 1975</i></p><p>Paul Allen se une a MITS como director de software.</p>
-  <p><i>7 de abril de 1975</i></p><p>"Altair BASIC - Up and Running", declara el titular de la primera edición de MITS Computer Notes.</p>
-  <p><i>1 de julio de 1975</i></p><p>El BASIC de Bill Gates y Paul Allen oficialmente se comerciacializa como versión 2.0 en ediciones 4K y 8K.</p>
-  <p><i>22 de julio de 1975</i></p><p>Paul Allen y Bill Gates firman un acuerdo de licencia con MITS con respecto al Basic Interpreter. El nombre Microsoft aún no se ha elegido, y Microsoft aún no es una asociación oficial.</p>
-  <p><i>29 de julio de 1975</i></p><p>En una carta a Paul Allen, Bill Gates usa el nombre "Micro-soft" para referirse a su asociación. Esta es la primera referencia escrita conocida.</p>
-  <p><i>31 de diciembre de 1975</i></p><p>El total de ventas de fin de año de 1975 equivale a 16,005 dólares, como se detalla en el Formulario 1065 Declaración de ingresos de la sociedad de los EE. UU.</p>
+  <p><i>¿Por qué se forman?</i></p><p>Los sistemas de presión se forman porque el aire fluye siempre desde las áreas de altas presiones hacia áreas de bajas presiones, tratando de llegar a un equilibrio. Pero existe una fuerza que lo desvía, causada por la rotación de la Tierra, y que hace que el flujo no vaya en línea recta. En vez de esto, los vientos forman una espiral.</p>
+  <p>Los sistemas de presión se clasifican en fríos, cálidos y dinámicos según su estructura térmica:</p>
+  <p><i>DEPRESIÓN FRÍA</i></p><p>En la troposfera más baja el aire más frío se encuentra sobre el mínimo de presión del mapa de superficie. Las topografías relativas de 1.000 a 700 y de 1.000 a 500 hPa presentan un mínimo de espesor coincidiendo con el centro de la depresión fría.</p>
+  <p><i>ANTICICLÓN FRÍO</i></p><p>En los mapas de superficie, el anticiclón frío aparece con presiones en el centro del orden de 1.035 a 1.040 hPa y la circulación anticiclónica desaparece rápidamente en altura. Entre 850 y 500 hPa el aire frío está sujeto a una circulación ciclónica.</p>
+  <p><i>DEPRESIÓN CÁLIDA</i></p><p>La depresión cálida, típica de los continentes durante los meses de verano, es el resultado de un fuerte calentamiento en una región. </p>
+  <p><i>ANTICICLÓN CÁLIDO</i></p><p>El anticiclón cálido presenta circulación anticiclónica en todos los niveles. En toda la troposfera el aire más cálido se encuentra en el centro, mientras que en la estratosfera más baja aparece un mínimo de temperaturas sobre las presiones más altas de superficie. Es un anticiclón de movimiento lento.Es originado por subsidencia en la troposfera y movimiento vertical ascendente en la estratosfera más baja.</p>
+  <p><i>ANTICICLÓN DINÁMICO</i></p><p>El anticiclón dinámico es una anticiclón frío con un modelo de curva de nivel a 500 y a 300 mb que favorecen la anticiclogénesis. En el estado final el anticiclón dinámico se transforma en anticiclón cálido con su eje prácticamente vertical.</p>
   </div></div>
   <hr></hr>
-  <h5>1976</h5>
+  <h5>Los frentes y sus tipos</h5>
   <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
   <div style = "text-align:center;" class="spoiler"><div>
   <p><i>3 de febrero de 1976</i></p><p>Bill Gates es el primer programador que plantea el problema de la piratería de software. En "Una carta abierta a los aficionados", publicada por primera vez en notas de computadora, Gates acusa a los aficionados de robar software y así evitar que se escriba un buen software.</p>
@@ -121,116 +121,15 @@ table.nomirarantonio th,table.nomirarantonio2 th,table.nomirarantonio3 th {
   <p><i>Personal / Ingresos 1976</i></p><p>Microsoft alquila oficinas oficiales en el Edificio de la Torre Central Two Park en 300 San Mateo Blvd, N.E., Suite 819, Albuquerque, Nuevo México.</p>
   </div></div>
   <hr></hr>
-  <h5>1977</h5>
+  <h5>Ecuación y experimento de Torricelli</h5>
   <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
   <div style = "text-align:center;" class="spoiler"><div>
-  <p><i>3 de febrero de 1977</i></p><p>Se ejecuta un acuerdo de asociación oficial entre Paul Allen y Bill Gates.</p>
-  <p><i>1 de julio de 1977</i></p><p>FORTRAN-80, el producto de segundo idioma de computadoras de Microsoft, está disponible a los precios de $ 500 por una licencia individual. Las licencias OEM están disponibles.</p>
-  <p><i>13 de septiembre de 1977</i></p><p>Microsoft recibe nuevas computadoras de Commodore, Radio Shack y Texas Instruments.</p>
-  <p><i>26 de septiembre de 1977</i></p><p>Las instalaciones de Albuquerque se amplían con tres nuevas oficinas en el mismo edificio.</p>
-  <p><i>18 de noviembre de 1977</i></p><p>Microsoft rescinde una licencia exclusiva de MITS para el producto BASIC de Microsoft y anuncia la disponibilidad de versiones para los microprocesadores 8080 y Z-80.</p>
-  <p><i>Ingresos / personal de 1977</i></p><p>Los ingresos del año calendario 1977 totalizan $ 381,715, la plantilla es 9.</p>
-  </div></div>
-  <hr></hr>
-  <h5>1978</h5>
-  <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
-  <div style = "text-align:center;" class="spoiler"><div>
-  <p><i>11 de abril de 1978</i></p><p>Se anuncia Microsoft COBOL-80, que cumple con los estándares ANSI de 1974 para los sistemas de microprocesador 8080, Z80 y 8085.</p>
-  <p><i>1 de noviembre de 1978</i></p><p>Microsoft establece su primera oficina internacional de ventas en Japón, ASCII Microsoft.</p>
-  <p><i>6 de noviembre de 1978</i></p><p>Microsoft anuncia la disponibilidad de Microsoft EDIT-80, un editor de texto orientado a la línea de acceso aleatorio para los sistemas 8080 y Z-80. EDIT-80 es el primer editor de microordenador con acceso de línea aleatorio a los archivos de disquete.</p>
-  <p><i>1 de diciembre de 1978</i></p><p>Microsoft anuncia Microsoft Macro-80 para 8080; Z-80. El ensamblador 14K es el macroensamblador más rápido actualmente en el mercado de microcomputadoras, ensamblando más de 1000 líneas por minuto.</p>
-  <p><i>1 de diciembre de 1978</i></p><p>Microsoft anuncia la disponibilidad del compilador FORTRAN-80 de Microsoft para TRS-80.</p>
-  <p><i>Ingresos / personal de 1978</i></p><p>Las ventas de fin de año de Microsoft superan $ 1 millón a $ 1,355,655. Hay 13 empleados.</p>
-  </div></div>
-  <hr></hr>
-  <h5>1979</h5>
-  <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
-  <div style = "text-align:center;" class="spoiler"><div>
-  <p><i>1 de enero de 1979</i></p><p>Microsoft traslada sus oficinas a Bellevue, Washington desde Albuquerque, Nuevo México.</p>
-  <p><i>12 de marzo de 1979</i></p><p>Se lanza una versión M6800 de Microsoft BASIC.</p>
-  <p><i>4 de abril de 1979</i></p><p>La versión 8080 de Microsoft® Basic es el primer producto de software de microprocesador en ganar el premio ICP Million Dollar Award.</p>
-  <p><i>18 de junio de 1979</i></p><p>Microsoft BASIC, actualmente en uso en más de 200,000 instalaciones Z80 y 8080 acaba de ser lanzado en una nueva versión para el microprocesador 8086 de 16 bits.</p>
-  <p><i>1 de agosto de 1979</i></p><p>Microsoft anuncia la disponibilidad del Compilador BASIC de Microsoft para los sistemas 8080 y Z-80 CP / M.</p>
-  <p><i>29 de noviembre de 1979</i></p><p>El servicio al mercado europeo se amplía con la incorporación de un nuevo representante, Vector Microsoft, ubicado en Haasrode, Bélgica.</p>
-  <p><i>1 de diciembre de 1979</i></p><p>Level III BASIC, el BASIC más poderoso escrito para el TRS-80, ha sido presentado por Microsoft Consumer Products, la nueva división de comercialización y desarrollo de software para el consumidor de Microsoft.</p>
-  <p><i>3 de diciembre de 1979</i></p><p>Microsoft distribuye el primer sistema de administración de bases de datos compatibles con CODASYL para microcomputadoras.</p>
-  <p><i>Ingresos / personal de 1979</i></p><p>Las ventas de fin de año de 1979 totalizaron $ 2,390,145. Hay 28 empleados.</p>
-  </div></div>
-  <hr></hr>
-  <h5>1980</h5>
-  <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
-  <div style = "text-align:center;" class="spoiler"><div>
-  <p><i>1 de enero de 1980</i></p><p>Microsoft Consumer Products anuncia su primer software de aplicación orientado al consumidor, Typing Tutor.</p>
-  <p><i>2 de abril de 1980</i></p><p>Microsoft presenta la Z-80 SoftCard, una placa de circuito que se conecta a la computadora Apple II y permite a los usuarios de Apple II ejecutar aplicaciones CP / M con solo modificaciones menores.</p>
-  <p><i>11 de junio de 1980</i></p><p>Steve Ballmer se une a Microsoft como responsable de las operaciones, incluido el personal de Microsoft, las finanzas y las áreas legales del negocio.</p>
-  <p><i>25 de agosto de 1980</i></p><p>Microsoft anuncia XENIX OS, un sistema operativo portátil basado en UNIX para microprocesadores de 16 bits.</p>
-  <p><i>Ingresos / personal de 1980</i></p><p>Las ventas de fin de año de 1980 totalizan $ 8,000,000. El recuento de empleados del año calendario 1980 totaliza 40 personas.</p>
-  </div></div>
-  <hr></hr>
-  <h5>1981</h5>
-  <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
-  <div style = "text-align:center;" class="spoiler"><div>
-  <p><i>9 de abril de 1981</i></p><p>La primera reunión semestral de la compañía se lleva a cabo en el recién construido Bellevue Athletic Club.</p>
-  <p><i>25 de junio de 1981</i></p><p>Microsoft se reorganiza en una corporación privada con Bill Gates como presidente y presidente del directorio y Paul Allen como vicepresidente ejecutivo. Microsoft se convierte en Microsoft, Inc., una empresa incorporada en el estado de Washington.</p>
-  <p><i>12 de agosto de 1981</i></p><p>IBM presenta su computadora personal (PC), MS-DOS versión 1.0, además de BASIC, COBOL, Pascal y otros productos de Microsoft. Esta es la entrada de Microsoft en el negocio de los sistemas operativos. Incluido en la lista de software compatible con IBM, se encuentra un juego recientemente adaptado a la PC, Microsoft Adventure.</p>
-  <p><i>1 de octubre de 1981</i></p><p>Se alquila el Microsoft Building (Edificio Northup) en 10700 Northup Way, (P.O. Box 97200) Bellevue, Washington, 98004.</p>
-  <p><i>8 de diciembre de 1981</i></p><p>Microsoft anuncia que ha firmado una carta de intención para ingresar a un acuerdo de segunda fuente con The Santa Cruz Operation, Inc. para el sistema operativo XENIX. El acuerdo brindará servicios adicionales a los compradores de XENIX, especialmente soporte, mantenimiento y documentación antes y después de la venta.</p>
-  <p><i>Ingresos / personal de 1981</i></p><p>Las ventas de fin de año de 1981 totalizan $ 17,331,000. El recuento de empleados del año calendario 1980 totaliza 129 personas.</p>
-  </div></div>
-  <hr></hr>
-  <h5>1982</h5>
-  <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
-  <div style = "text-align:center;" class="spoiler"><div>
-  <p><i>24 de marzo de 1982</i></p><p>Se incorpora Microsoft U.K. Ltd. (Reino Unido) (primera filial internacional oficial).</p>
-  <p><i>25 de junio de 1982</i></p><p>James C. Towne es nombrado presidente y director de operaciones de Microsoft. En julio, asumirá todas las responsabilidades de Bill Gates, quien asumirá el cargo de Vicepresidente Ejecutivo, responsable de todas las actividades de desarrollo. Gates sigue siendo presidente de la Junta. Towne anteriormente fue Vicepresidente y Gerente General de la División de Instrumentos en Tektronix. Él es reemplazado por Jon Shirley el próximo año.</p>
-  <p><i>28 de junio de 1982</i></p><p>Microsoft anuncia un nuevo logotipo corporativo, un nuevo paquete y un conjunto completo de materiales de soporte para minoristas.</p>
-  <p><i>6 de julio de 1982</i></p><p>Microsoft se convierte en una marca registrada en los EE. UU. (N. ° 1.200.236 en Int.Cls 9 y 42 (programas informáticos y servicios de programación informática).</p>
-  <p><i>16 de julio de 1982</i></p><p>Microsoft adquiere una máquina de fax para uso interno. Es un Panafax 1200 y es compatible con los grupos I y II.</p>
-  <p><i>16 de julio de 1982</i></p><p>La red de área local de Microsoft (MILAN) ahora es completamente funcional, conectando todas las computadoras de desarrollo internas de Microsoft, incluyendo un DEC 2060, dos PDP-11/70, un VAX 11/250 y muchas máquinas MC68000 que ejecutan XENIX. Este sistema simplificará la entrega de correo electrónico en el sitio.</p>
-  <p><i>1 de agosto de 1982</i></p><p>Multiplan de Microsoft versión 1.00 para ships de MS-DOS.</p>
-  <p><i>1 de septiembre de 1982</i></p><p>Microsoft anuncia la disponibilidad de su paquete matemático simbólico muMATH / muSIMP para IBM Personal Computer. Este paquete también se ofrece para los sistemas informáticos Apple II, TRS-80 y CP / M-80.</p>
-  <p><i>1 de octubre de 1982</i></p><p>Paul Allen es diagnosticado con la enfermedad de Hodgkin, que está localizada y en una forma muy tratable. Él tiene un horario de trabajo limitado mientras se somete a tratamientos. Aunque su tratamiento es exitoso, él renunciará de Microsoft en 1983.</p>
-  <p><i>Ingresos / personal de 1982</i></p><p>Las ventas de fin de año de 1982 totalizan $ 24,486,000. El recuento de empleados del año calendario 1982 totaliza 220 personas.</p>
-  </div></div>
-  <hr></hr>
-  <h5>1983</h5>
-  <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
-  <div style = "text-align:center;" class="spoiler"><div>
-  <p><i>18 de febrero de 1983</i></p><p>Paul Allen dimite como vicepresidente ejecutivo de Microsoft, pero permanece en el Consejo de Administración.</p>
-  <p><i>9 de marzo de 1983</i></p><p>Microsoft presenta MS-DOS 2.0.</p>
-  <p><i>2 de mayo de 1983</i></p><p>Microsoft presenta el Microsoft Mouse, un dispositivo señalador portátil de bajo costo para usar con la PC de IBM, así como con cualquier otra computadora personal basada en MS-DOS.</p>
-  <p><i>1 de agosto de 1983</i></p><p>Se adquieren los activos de Wiser Laboratories Pty, Ltd. de Australia, el distribuidor local de productos de Microsoft. Con el establecimiento de esta subsidiaria, Microsoft obtiene una red de distribución directa en la región. Todos los empleados de Wiser serán retenidos, y la empresa permanecerá en su dirección actual. Esta es considerada la primera adquisición de la compañía.</p>
-  <p><i>29 de septiembre de 1983</i></p><p>Microsoft envía su programa de procesamiento de texto con todas las funciones, Word para MS-DOS 1.00 y proporciona una copia de demostración gratuita a los suscriptores de The PC World Software Review.</p>
-  <p><i>3 de noviembre de 1983</i></p><p>Se forma Microsoft Press, una división editorial especializada en libros de computación. Nahum Stiskin es nombrado Director General y Editor. El enfoque principal de marketing es el profesional de negocios, con un énfasis secundario en los mercados de aficionados, hogar y educación. Microsoft Press espera publicar de 30 a 35 libros en su primer año.</p>
-  <p><i>10 de noviembre de 1983</i></p><p>Microsoft presenta Windows, una extensión del sistema operativo MS-DOS que proporciona un entorno operativo gráfico. Windows presenta una capacidad de administración de ventanas que permite al usuario ver simultáneamente programas de aplicaciones no relacionados. También proporciona la capacidad de transferir datos de un programa de aplicación a otro. Windows no se enviaría hasta 2 años después.</p>
-  <p><i>1 de diciembre de 1983</i></p><p>Las primeras filiales internacionales que se conectan al correo electrónico de Microsoft se encuentran en Europa: Microsoft Ltd. en el Reino Unido, Microsoft Sarl en Francia y Microsoft GmbH en Alemania.</p>
-  </div></div>
-  <hr></hr>
-  <h5>1984</h5>
-  <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
-  <div style = "text-align:center;" class="spoiler"><div>
-  <p><i>24 de enero de 1984</i></p><p>Microsoft y Apple Computer anuncian la nueva computadora Apple Macintosh y el software de productividad de diseño personalizado de Microsoft para la nueva computadora. La interfaz de Macintosh, combinada con el software de Microsoft: Multiplan, Chart, Word, File y BASIC ofrece un entorno potente y funcional para todos los usuarios.</p>
-  <p><i>4 de marzo de 1984</i></p><p>Microsoft se une a Spectravideo y cuatro empresas japonesas para establecer un estándar de compatibilidad de hardware / software basado en el popular microordenador Z80® de 8 bits. El estándar, llamado MSX, se anunció el 15 de junio de 1983 y puso a disposición un nuevo conjunto de especificaciones estándar para que los diversos programas de software sean compatibles con computadoras hogareñas de bajo costo de diferentes fabricantes. MSX se desarrolló principalmente para el mercado japonés como el primer formato unificado en Japón para software o hardware. Nunca fue adaptado para la venta en los EE. UU.</p>
-  <p><i>22 de marzo de 1984</i></p><p>Microsoft Press presenta sus dos primeros títulos: "The Apple Macintosh Book" de Cary Lu y "Exploration the PCjr Home Computer" de Peter Norton.</p>
-  <p><i>29 de marzo de 1984</i></p><p>Microsoft crea una nueva división de hardware y periféricos dedicada a desarrollar y comercializar productos de hardware que complementan la línea de productos de software de Microsoft.</p>
-  <p><i>14 de agosto de 1984</i></p><p>IBM elige XENIX y MS-DOS para su computadora personal de nueva generación, IBM PC AT.</p>
-  <p><i>9 de septiembre de 1984</i></p><p>Microsoft programa una reunión con funcionarios de la ciudad de Redmond para discutir la reubicación de la empresa en el desarrollo de Evergreen Place en 1985.</p>
-  <p><i>24 de septiembre de 1984</i></p><p>Francis J. Gaudette se une a Microsoft como vicepresidente de Finanzas y Administración.</p>
-  <p><i>Ingresos / recuento de 1984</i></p><p>Las ventas de fin de año fiscal de 1984 totalizaron $ 97,479,000. El recuento de empleados del año fiscal de 1984 totaliza 860 personas.</p>
-  </div></div>
-  <hr></hr>
-  <h5>1985</h5>
-  <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
-  <div style = "text-align:center;" class="spoiler"><div>
-  <p><i>23 de enero de 1985</i></p><p>Microsoft anuncia el lanzamiento del sistema de expansión Microsoft MacEnhancer, un nuevo producto de hardware diseñado para abrir la computadora Apple Macintosh a una amplia gama de periféricos compatibles con IBM.</p>
-  <p><i>1 de febrero de 1985</i></p><p>Ida Cole es nombrada nueva vicepresidenta de aplicaciones, responsable de la planificación, el desarrollo y el marketing de la línea de productos de software de aplicaciones. Ella le informará a Jon Shirley, presidente. Ella estaba anteriormente con Apple Computer, Inc ..</p>
-  <p><i>3 de mayo de 1985</i></p><p>Microsoft Mouse en cuarentena en Canadá. Rich MacIntosh, Gerente General de Microsoft Canada, Inc., fue llamado recientemente al Departamento de Agricultura de Canadá para recuperar su "Mouse" de Microsoft luego de cuatro semanas de cuarentena.</p>
-  <p><i>9 de agosto de 1985</i></p><p>Microsoft anuncia que Wright Runstad & Company inicia el día de hoy una nueva sede central de Microsoft en Redmond programada para mediados de 1986. La instalación de $ 25 millones se ubicará en el cuadrante sureste del parque Evergreen Place Office Park, en un entorno boscoso de 29 acres del campus.</p>
-  <p><i>12 de agosto de 1985</i></p><p>Microsoft celebra su décimo aniversario con cifras de ventas de $ 140 millones para el año fiscal de 1985.</p>
-  <p><i>22 de agosto de 1985</i></p><p>Microsoft firma un acuerdo con IBM para el desarrollo conjunto de sistemas operativos y otros productos de software de sistemas.</p>
-  <p><i>3 de septiembre de 1985</i></p><p>Microsoft selecciona a la República de Irlanda como el sitio de su primera instalación de producción fuera de los EE. UU. Para productos de software que se venderán en el mercado europeo.</p>
-  <p><i>30 de septiembre de 1985</i></p><p>Microsoft anuncia el envío a las tiendas minoristas de Excel para Macintosh, una potente hoja de cálculo de microordenador con todas las funciones que combina gráficos comerciales con una base de datos en la hoja.</p>
-  <p><i>20 de noviembre de 1985</i></p><p>Microsoft envía la versión comercial de Windows, un sistema operativo que amplía las características de MS-DOS.</p>
+  <p><i>Todos los problemas de presión atmosférica derivan de esta fórmula</i></p><p>$$ p = d · g · h$$</p>
+  <p><i>Esta fórmula hizo que funcionara el experimento de Torricelli.</i></p><p>Se intentó medir la presión que ejerce el aire sobre la superficie de la tierra. Se pensó en aplicar la ley fundamental de la hidrostática, pero no se puede utilizar en este caso debido a que la densidad del aire no es constante en la atmósfera. <p>El primero en determinar el valor de la presión atmosférica en la superficie fue Torricelli en 1643.</p></p>
+  <p><i>El experimento de Torricelli</i></p><p>El experimento consistió en llenar un tubo de vidrio con mercurio, tapando la boca del tubo e invirtiéndolo, sumergiendo así la boca en un recipiente lleno de mercurio.</p>
+  <p>Cuando quitó el dedo de la boca del tubo, observó que quedaron 760 mm de mercurio. Explicó el fenómeno proponiendo que la presión de la atmósfera igualaba la presión ejercida por la columna de mercurio.</p>
+  <p>Entonces, calculando la presión del mercurio a una profundidad de 760 mm, obtendríamos la presión que ejerce el aire.</p>
+  <p><i>Sabiendo que la densidad del mercurio es $$13,6 {g\over cm^3}$$</i></p><p>$$ p_{atm} = d_{Hg} · g · h = 13600 · 9.8 · 0.760 = 101325 Pa $$</p>
   </div></div>
   <hr></hr>
 </div>
