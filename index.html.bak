@@ -108,7 +108,7 @@ table.nomirarantonio th,table.nomirarantonio2 th,table.nomirarantonio3 th {
   <p><i>DEPRESIÓN CÁLIDA</i></p><p>La depresión cálida, típica de los continentes durante los meses de verano, es el resultado de un fuerte calentamiento en una región. </p>
   <p><i>ANTICICLÓN CÁLIDO</i></p><p>El anticiclón cálido presenta circulación anticiclónica en todos los niveles. En toda la troposfera el aire más cálido se encuentra en el centro, mientras que en la estratosfera más baja aparece un mínimo de temperaturas sobre las presiones más altas de superficie. Es un anticiclón de movimiento lento.Es originado por subsidencia en la troposfera y movimiento vertical ascendente en la estratosfera más baja.</p><img src="figuras/tiposanticiclones.jpg" width="450" height="280" style="text-align: center;" ></img>
   <p><i>ANTICICLÓN DINÁMICO</i></p><p>El anticiclón dinámico es una anticiclón frío con un modelo de curva de nivel a 500 y a 300 mb que favorecen la anticiclogénesis. En el estado final el anticiclón dinámico se transforma en anticiclón cálido con su eje prácticamente vertical.</p>
-  <p><i>MAPAS</i></p><div><img src="figuras/invierno.jpg" width="450" height="280" style="text-align: center;" ></img><img src="figuras/verano.jpg" width="450" height="280" style="text-align: center;" ></img></div>
+  <p><i>MAPAS</i></p><p>Invierno</p><img src="figuras/invierno.jpg" width="450" height="280" style="text-align: center;" ></img><p>Verano</p><img src="figuras/verano.jpg" width="450" height="280" style="text-align: center;" ></img>
   </div></div>
   <hr></hr>
   <h5>Los frentes y sus tipos</h5>
@@ -141,6 +141,20 @@ table.nomirarantonio th,table.nomirarantonio2 th,table.nomirarantonio3 th {
   <p><i>Sabiendo que la densidad del mercurio es $$13,6 {g\over cm^3}$$</i></p><p>$$ p_{atm} = d_{Hg} · g · h = 13600 · 9.8 · 0.760 = 101325 Pa $$</p>
   <img src="figuras/mercurio.jpg" width="450" height="280" style="text-align: center;" ></img>
   <p>Esta es la presión atmosférica en un día de condiciones meteorológicas normales y a nivel del mar.</p>
+  </div></div>
+  <hr></hr>
+  <h5>Aparatos de medida de la presión</h5>
+  <img src="figuras/presion3.jpg" width="300" height="270" style="text-align: center;" ></img>
+  <br></br>
+  <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
+  <div style = "text-align:center;" class="spoiler"><div>
+  <p><i>Barómetros</i></p><p>Los barómetros de mercurio ya están en extinción, debido a diferentes normativas internacionales sobre el uso del mercurio. Al principal tipo de estos barómetros se les denomina “barómetro de Torricelli”, por su inventor. La palabra barómetro puede descomponerse en dos partes. Por un lado 'baros', que significa presión; por otro lado, 'metro' que significa "medida". Así que la expresión "barómetro" significa "medida de presión".</p>
+  <p><i>¿Cómo funcionan estos barómetros?</i></p><p>El barómetro es un sensor que mide la presión del aire sobre el lugar donde realizamos la medida.<p>La presión atmosférica o presión barométrica (puede llamarse de las dos formas) se mide en BARES (normalmente se usan los milibares, que se escriben "\(mbar\)") o en MILÍMETROS DE MERCURIO (que se simbolizan así: "\(mm \over Hg\)").</p></p>
+  <p><i>Milibares y milímetros de mercurio, unidades equivalentes</i></p><img src="figuras/presion2.jpg" width="450" height="250" style="text-align: center;" ></img><p>Aunque las dos escalas son distintas, ambas son equivalentes.</p>
+  <p>$$ 1013mbar = 760{mm \over Hg}$$<p>
+  <p>Si la presión barométrica es inferior a 1013 mbar, esto nos indica que la presión es inferior a la que se observa a nivel del mar.</p>
+  <p>Cuando la presión atmosférica se mantiene alta durante varios días sobre el mismo lugar, es posible que tengamos un tiempo anticiclónico (que se denota por la letra A en los mapas del tiempo). Si la presión, por el contrario, se mantiene baja o desciende paulatinamente, es posible que tengamos un tiempo borrascoso (que se denota por la letra B en los mapas del tiempo).</p>
+  <img src="figuras/barometro.jpg" width="300" height="280" style="text-align: center;" ></img>
   </div></div>
   <hr></hr>
 </div>
