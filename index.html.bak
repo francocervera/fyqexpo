@@ -152,6 +152,7 @@ table.nomirarantonio th,table.nomirarantonio2 th,table.nomirarantonio3 th {
   <p><i>¿Cómo funcionan estos barómetros?</i></p><p>El barómetro es un sensor que mide la presión del aire sobre el lugar donde realizamos la medida.<p>La presión atmosférica o presión barométrica (puede llamarse de las dos formas) se mide en BARES (normalmente se usan los milibares, que se escriben "\(mbar\)") o en MILÍMETROS DE MERCURIO (que se simbolizan así: "\(mm \over Hg\)").</p></p>
   <p><i>Milibares y milímetros de mercurio, unidades equivalentes</i></p><img src="figuras/presion2.jpg" width="450" height="250" style="text-align: center;" ></img><p>Aunque las dos escalas son distintas, ambas son equivalentes.</p>
   <p>$$ 1013mbar = 760{mm \over Hg}$$<p>
+  <p>$$ 1atm = 1.034{kg \over cm^2}$$<p>
   <p>Si la presión barométrica es inferior a 1013 mbar, esto nos indica que la presión es inferior a la que se observa a nivel del mar.</p>
   <p>Cuando la presión atmosférica se mantiene alta durante varios días sobre el mismo lugar, es posible que tengamos un tiempo anticiclónico (que se denota por la letra A en los mapas del tiempo). Si la presión, por el contrario, se mantiene baja o desciende paulatinamente, es posible que tengamos un tiempo borrascoso (que se denota por la letra B en los mapas del tiempo).</p>
   <img src="figuras/barometro.jpg" width="300" height="280" style="text-align: center;" ></img>
@@ -177,7 +178,83 @@ table.nomirarantonio th,table.nomirarantonio2 th,table.nomirarantonio3 th {
   <p> Por lo tanto, calculamos la presión relativa:</p>
   <p>$$ p = d_{Hg} · g · h = 13600 · 9.8 · 0.420 = 55978Pa $$</p>
   <p>Y ahora expresamos esa cantidad en milibares:</p>
-  <p>p = 55978Pa · {1atm \over 101325Pa} · {1013mb \over 1atm}</p>
+  <p>$$p = 55978Pa · {1atm \over 101325Pa} · {1013mb \over 1atm}$$</p>
+  </div></div>
+  <hr></hr>
+  <h5>Los sistemas de presión se clasifican en:</h5>
+  <p>A) Fríos, templados y cálidos</p>
+  <p>B) Fríos, calidos y móviles</p>
+  <p>C) Fríos, calidos y dinámicos</p>
+  <p>D) Inmóviles y móviles</p>
+  <br></br>
+  <p>Respuesta</p>
+  <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
+  <div style = "text-align:center;" class="spoiler"><div>
+  <!--Eliminado esta parte por ahora <p><i>¿Por qué se forman?</i></p> --><p>C) Fríos, calidos y dinámicos.</p>
+  </div></div>
+  <hr></hr>
+  <h5>Las presiones son iguales en verano y en invierno:</h5>
+  <p>A) Verdadero</p>
+  <p>B) Falso</p>
+  <br></br>
+  <p>Respuesta</p>
+  <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
+  <div style = "text-align:center;" class="spoiler"><div>
+  <!--Eliminado esta parte por ahora <p><i>¿Por qué se forman?</i></p> --><p>B) Falso. Las presiones varían entre verano e invierno.</p>
+  </div></div>
+  <hr></hr>
+  <h5>El frente frío se forma cuando el aire caliente es menos denso que el frío:</h5>
+  <p>A) Verdadero</p>
+  <p>B) Falso</p>
+  <br></br>
+  <p>Respuesta</p>
+  <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
+  <div style = "text-align:center;" class="spoiler"><div>
+  <!--Eliminado esta parte por ahora <p><i>¿Por qué se forman?</i></p> --><p>A) Verdadero.</p>
+  </div></div>
+  <hr></hr>
+  <h5>La formula de la presión es:</h5>
+  <p>A) \(Altura · Superficie · Peso\)</p>
+  <p>B) \(Gravedad · Masa\)</p>
+  <p>C) \(Masa^2 · Altura\)</p>
+  <p>D) \(Densidad · Gravedad · Altura\)</p>
+  <br></br>
+  <p>Respuesta</p>
+  <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
+  <div style = "text-align:center;" class="spoiler"><div>
+  <!--Eliminado esta parte por ahora <p><i>¿Por qué se forman?</i></p> --><p>D) \(Densidad · Gravedad · Altura\).</p>
+  </div></div>
+  <hr></hr>
+  <h5>El primero en determinar el valor de la presión atmosférica fue Torricelli en el siglo XVI:</h5>
+  <p>A) Falso</p>
+  <p>B) Verdadero</p>
+  <br></br>
+  <p>Respuesta</p>
+  <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
+  <div style = "text-align:center;" class="spoiler"><div>
+  <!--Eliminado esta parte por ahora <p><i>¿Por qué se forman?</i></p> --><p>A) Falso. Lo descubrió en el siglo XV</p>
+  </div></div>
+  <hr></hr>
+  <h5>El barómetro se sigue usando pero:</h5>
+  <p>A) Mucho menos que antes</p>
+  <p>B) Ya no se usa</p>
+  <p>C) Es el método más usado actualmente</p>
+  <br></br>
+  <p>Respuesta</p>
+  <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
+  <div style = "text-align:center;" class="spoiler"><div>
+  <!--Eliminado esta parte por ahora <p><i>¿Por qué se forman?</i></p> --><p>A) Mucho menos que antes. Esto se da gracias a regulaciones internacionales y la toxicidad del mercurio.</p>
+  </div></div>
+  <hr></hr>
+  <h5>Demuestra la equivalencia entre la atmósfera(\(atm\)) y el \(kg \over cm^2 \)</h5>
+  <br></br>
+  <p>Respuesta</p>
+  <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
+  <div style = "text-align:center;" class="spoiler"><div>
+  <!--Eliminado esta parte por ahora <p><i>¿Por qué se forman?</i></p> --><p>La presión de \(1 kg\) apoyado en \(1 cm^2\) es:</p>
+  <p>$$ p = {F \over S} = {P \over S} = {m · g \over S} = {1Kg · 9.8{N \over kg} \over 10^{-4} m^2} = 98000{N \over m^2}$$</p>
+  <p>Siguiendo la definición de \(kg \over cm^2 \), la presión ejerce una masa de 1 kg debido a su peso. Decimos que:</p>
+  <p>$$98000 Pa = 1 {kg \over cm^2}$$</p>
   </div></div>
   <hr></hr>
 </div>
